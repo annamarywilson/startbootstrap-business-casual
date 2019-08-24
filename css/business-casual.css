@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Avenir';
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(207,197,184,2))), url("../img/Untitled-1.jpg");
-  background: linear-gradient(rgba(207,197,184,2)), url("../img/Untitled-1.jpg");
+  background color: rgba(207,197,184,2), url("../img/Untitled-1.jpg");
+  background color: rgba(207,197,184,2)), url("../img/Untitled-1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -72,7 +72,7 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: $primary;
 }
 
 #mainNav {
