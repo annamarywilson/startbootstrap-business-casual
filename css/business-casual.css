@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Avenir';
-  background color: rgba(207,197,184,2), url("../img/Untitled-1.jpg");
-  background color: rgba(207,197,184,2)), url("../img/Untitled-1.jpg");
+  background color: bg-primary, url("../img/Untitled-1.jpg");
+  background color: bg-primary, url("../img/Untitled-1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -72,11 +72,11 @@ p {
 }
 
 .bg-faded {
-  background-color: $primary;
+  background-color: bg-primary;
 }
 
 #mainNav {
-  background-color: (rgba(207,197,184,2);
+  background-color: bg-primary;
   font-family: 'Avenir Light';
 }
 
