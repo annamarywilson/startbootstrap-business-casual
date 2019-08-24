@@ -1,5 +1,5 @@
 #mainNav {
-  background-color:$primary;
+  background-color:#748775;
   @include heading-font;
   .navbar-brand {
     color: $primary;
@@ -13,7 +13,7 @@
       }
       &.active {
         .nav-link {
-          color: $primary;
+          color: #748775;
         }
       }
     }
@@ -29,7 +29,7 @@
         }
         &.active {
           .nav-link:hover {
-            color: $primary;
+            color: #748775;
           }
         }
       }
